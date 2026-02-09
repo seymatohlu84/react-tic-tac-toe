@@ -2,22 +2,22 @@
 
 body {
   font-family: sans-serif;
-  padding: 20px;
+  padding: 100px;
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: #df2899;
+  border: 1px solid #780659;
   float: left;
   font-size: 24px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 100px;
+  height: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 100px;
 }
 
 .board-row:after {
@@ -37,5 +37,10 @@ body {
 }
 
 .game-info {
-  margin-left: 20px;
+  margin-left: 200px;
+}
+
+.square--win{
+  background-color:#ffe08a;
+  font-weight: 700;
 }
